@@ -4,12 +4,25 @@ body {
     background-color: rgb(226, 226, 226)
 }
 
+h1 {
+    font-weight: 800;
+}
+
 img {
     width: auto;
-    height: auto;
+    height: 500px;
 }
-li {
-    color: black;
+
+p {
+    font-style: italic;
+    font-size: 16;
+}
+
+ol {
+    font-size: 20;
+}
+
+ul {
+    font-weight: bold;
     font-size: large;
-    
 }
