@@ -1,16 +1,20 @@
 body {
     font-family: Arial,"Times New Roman",sans-serif;
-    text-align: center;
-    background-color: rgb(226, 226, 226)
+    background-color: rgb(226, 226, 226);
+    box-sizing: border-box;
 }
 
-h1 {
-    font-weight: 800;
+#chef-img {
+   margin-left: auto;
+   margin-right: auto;
+  display: block;
 }
 
-img {
-    width: auto;
-    height: 500px;
+#odin-title {
+   text-align: center;
+   font-weight: bolder;
+   margin: auto 700px;
+   padding: 10px;
 }
 
 p {
@@ -18,11 +22,62 @@ p {
     font-size: 16;
 }
 
-ol {
-    font-size: 20;
+.recipes {
+     margin-bottom:12px;
+     box-sizing: border-box;
+     text-align: center;
 }
 
-ul {
-    font-weight: bold;
+.desc {
+    margin-left: 600px;
+    margin-top: -630px;
+}
+
+#pasta-ingredients {
+    margin-left: 600px;
+    margin-top: 80px;
     font-size: large;
+    margin-bottom: 220px;
+}
+
+.ingredients {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.directions {
+    margin-top: 130px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    border: 30px solid rgb(226, 226, 226);
+}
+
+.directions ol li {
+   margin-bottom: 12px; 
+}
+
+.pasta-ingredients .ingredients-text {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+.ingredients .ingredients-text {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 27px;
+}
+.highlight {
+    color: red
+}
+
+.title {
+    margin-left: 190px;
+    font-weight: bolder;
+    
+}
+
+#pasta-title {
+    margin-left: 98px;
+    font-weight: bolder;
 }
