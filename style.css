@@ -28,6 +28,11 @@ p {
      text-align: center;
 }
 
+#pie-desc {
+    margin-left: 600px;
+    margin-top: -490;
+}
+
 .desc {
     margin-left: 600px;
     margin-top: -630px;
